@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fun Fact</string>
+    <string name="recover_password">Forget password ?   Contact your admin </string>
+    <string name="username_hint">User name</string>
+    <string name="password_hint">Password</string>
+    <string name="button_login">Login</string>
+</resources>
