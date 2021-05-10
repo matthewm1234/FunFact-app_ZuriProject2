@@ -20,6 +20,7 @@ class Login_Activity : AppCompatActivity() {
             else if (binding?.userName?.text.toString() == "matthew" && binding?.password?.text.toString() == "mypassword") {
                 val intent = Intent(this, MainActivity::class.java)
                 startActivity(intent)
+                finish();
             } else {
                 Toast.makeText(this, "Username Must be : \"matthew\" and password : \"mypassword\"", Toast.LENGTH_SHORT).show()
             }
